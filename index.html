@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta name="description" content="Создание простых, минималистичных сайтов для тех, кто хочет видеть рабочий результат.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Webme</title>
+  
+</head>
+<body>
+  <header>
+    Webme
+    <button style="margin: 0;" onclick="open_kwork()">Заказать</button>
+  </header>
+  
+  <div class="banner">
+    <div>
+      <h1 class="title">Webme Studio</h1>
+      <h2 class="title">Статичные веб-сайты для вас</h2>
+      <p style="color: white" class="title">
+        Разработка статичных сайтов-визиток с использованием HTML и CSS 
+        разметки, а также ванильного JavaScript о вас или вашем хобби!
+      </p>
+    </div>
+    <img src="img/bg-pic.png" height="450px" alt="Веб-разработчик" id="web-img">
+  </div>
+
+  <main>
+    <section>
+      <div class="block">
+        <h2>Кому это нужно?</h2>
+        <p>
+          Сейчас у каждого есть своё хобби, увлечение или дело.
+          Но не у каждого есть свой уголок в интернете. Мы поможем 
+          вам обрести такое место, которое не только будет служить 
+          напоминанием о вашей деятельности, но и сможет привлечь к 
+          вам внимание окружающих без значительных затрат и без 
+          регулярной платы за хостинг.
+        </p>
+      </div>
+    </section>
+    
+    <section>
+      <div class="block" id="about">
+        <h2>О нас</h2>
+        <p class="limited">
+          Webme - это персональный проект, ориентированный на создание 
+          небольших веб-сайтов о себе или своём деле и, разрабатывающий 
+          статичные современные веб-страницы и визитки, используя разметку на HTML, 
+          CSS и лёгкий функционал на JavaScript. В результате вы получаете 
+          готовый архив со всеми необходимыми файлами. При желании мы можем 
+          загрузить их на бесплатный хостинг <a href="https://docs.github.com/en/pages" target="blank">GitHub Pages</a>, 
+          чтобы обеспечить постоянный доступ к сайту для ваших посетителей. 
+          Для этого вам только необходимо иметь рабочий аккаунт на сайте GitHub. 
+          Размещение будет происходить на нём. Стоимость домена в услугу не входит, 
+          но мы можем помочь вам с его привязкой и получением. 
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="out">
+        <h2>Преимущества</h2>
+
+        <div class="row-container">
+          <div class="advantages animated-el">
+            <div>
+              <h3>Индивидуальный подход</h3>
+              <p>Веб-страницы создаются на основе ваших предпочтений.</p>
+            </div>
+          </div>
+          <div class="advantages animated-el">
+            <div>
+              <h3>Простота</h3>
+              <p>Для тех кто хочет получить рабочий результат с минимальными усилиями.</p>
+            </div>
+          </div>
+          <div class="advantages animated-el">
+            <div>
+              <h3>Современные технологии</h3>
+              <p>Используем современные способы создания страницы.</p>
+            </div>
+          </div>
+          <div class="advantages animated-el">
+            <div>
+              <h3>Доступная цена</h3>
+              <p>Цена за нашу услугу гораздо ниже, чем у других. Платить за хостинг не придётся.</p>
+            </div>
+          </div>
+        </div>  
+    </section>
+
+    <section>
+      <div>
+        <h2 style="margin: 50px">Примеры работ</h2>
+        <p style="margin: 50px;">
+          Примером нашей выполненной работы является данный сайт, но у нас 
+          есть и другие. Они представлены ниже.
+        </p>
+        <div class="screenshots">
+          <img src="img/page1.png" alt="Сайт о себе" class="screens">
+          <img src="img/page2.png" alt="Сайт о путешествиях" class="screens">
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="block dev">
+        <div>
+          <h2>Вёрстка и разработка</h2>
+          <h3>Что входит в услугу?</h3>
+          <ul>
+            <li>Консультация</li>
+            <li>Вёрстка и проектирование структуры страницы</li>
+            <li>SEO оптимизация и семантическая разметка</li>
+            <li>Адаптивный дизайн под большинство устройств</li>
+            <li>Подбор готовых картинок при необходимости</li>
+            <li>Помощь с размещением и доменом страницы</li>
+          </ul>
+          <h3>Что требуется от вас?</h3>
+          <ul>
+            <li>Чёткая, понятная задача и предназначение веб-страницы</li>
+            <li>Подробное описание желаемого дизайна (можно ссылку на макет в Figma)</li>
+            <li>Иметь собственный аккаунт без нарушений на <a href="https://github.com" target="blank">GitHub</a></li>
+          </ul>
+          <h3>Что мы НЕ делаем?</h3>
+          <ul>
+            <li>Сложные сайты с базой данных и обработкой на сервере</li>
+            <li>Профессиональный дизайн и картинки для страницы</li>
+            <li>Заказы, которые как-либо противоречат закону</li>
+            <li>Наполнение для страницы</li>
+          </ul>
+          <p>
+            Срок выполнения работы зависит от ваших целей и сложности
+            дизайна. Обычно это 5-7 дней.
+          </p>
+        </div>
+        <img src="img/bricks.svg" height="400px" alt="блоки" id="bricks">
+      </div>
+    </section>
+
+    <section>
+      <div class="block">
+        <h2>Как оформить заказ?</h2>
+        <p>
+          Оформите заказ от <span>2000 рублей</span>, перейдя по <a href="https://kwork.ru/website-development/49994057/sozdam-statichniy-sayt-ili-vizitku-s-nulya-na-github-pages" target="_blank">этой ссылке</a> или, нажав на кнопку выше, и
+          свяжитесь с нами на бирже Kwork. Цена указана за 1 страницу без дополнительных опций.
+        </p>
+      </div>
+    </section>
+  </main>
+
+</body>
+<footer>
+  <p>
+    2026 <br>
+    Webme Studio
+  </p>
+</footer>
+<script src="scripts/script.js"></script>
+</html>
