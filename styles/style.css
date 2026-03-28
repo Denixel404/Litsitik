@@ -285,7 +285,43 @@ button:hover {
   }
 }
 
-@media (min-width: 425px) and (max-width: 769px) {
+@media (min-width: 768px) and (max-width: 991px) {
+
+  header {
+    gap: 60%
+  }
+
+  .banner div {
+    max-width: 50%;
+  }
+
+  .row-container {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .advantages {
+    max-width: none;
+    flex-basis: 49.5%;
+    box-sizing: border-box;
+  }
+
+  img.screens {
+    margin: 5px;
+    height: 550px;
+    width: auto;
+    object-fit: cover;
+  }
+
+  #web-img {
+    height: 300px;
+  }
+
+  #bricks {
+    height: 200px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
 
   header {
     gap: 60%
