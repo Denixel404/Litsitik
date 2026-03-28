@@ -148,6 +148,7 @@ button:hover {
   width: 100%;
   padding: 25px;
   padding-top: 125px;
+  padding-bottom: 40px;
   background: linear-gradient(45deg, #001138, #040034, #0f0038, #1c0033);
 }
 
