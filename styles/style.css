@@ -291,9 +291,17 @@ button:hover {
   header {
     gap: 60%
   }
+  
+  h1 {
+    font-size: 2.9rem;
+  }
+
+  .banner {
+    gap: 5%;
+  }
 
   .banner div {
-    max-width: 50%;
+    width: 75%;
   }
 
   .row-container {
